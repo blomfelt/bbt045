@@ -15,4 +15,3 @@ See also [[Lectures]]
 | 9 | 15/3 Fri | Omics and Integrative Analysis | 11 |
 | 9 | 17/3 Sun | Final Project Report | 11 |
 | 9 | 17/3 Sun | Project Reflection | 11 |
-[[Lectures]]
