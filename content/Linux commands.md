@@ -40,6 +40,7 @@ See also [[Git commands]]
 
 # Vera server
 - `ssh CID@vera1.c3se.chalmers.se`
+- `exit` - log out from the server
 - `./jupyter_run.sh` - run the file `jupyter_run.sh`, located in the current directory (check with `ls`)
 - `squeue -u CID` where CID is your CID. If there is only a list of headers, you have no job running
 - `touch X`- "Touch" file X (update time accessed). If it does not exist, create it.
