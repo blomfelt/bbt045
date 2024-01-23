@@ -13,6 +13,7 @@ See also [[Git commands]]
 - `rm X` - remove file X (YOU CANNOT UNDO THIS)
 - `rm -r X`- remove directory X and all files in it (and subdirectories)
 - `mv SOURCE DESTINATION` - move file  SOURCE to DESTINATION. May also be used to rename SOURCE to DESTINATION if no path is used, i.e. no "/" are used. "*The file is moved to the same place but with a new name*"
+- `cp X DESTINATION` - copy file X to DESTINATION.
 - `touch X`- "Touch" file X (update time accessed). If it does not exist, create it.
 - `chmod u+x X` - edit the permissions of file X so that you (u) may execute (x) it.
 - `command > X` - write the output from `command` in file X
@@ -36,3 +37,11 @@ See also [[Git commands]]
 - `find DIR -name PATTERN` - search for files which match `PATTERN` in the directory `DIR`
 - `column` - display tabular files in aligned columns
 - `[Ctrl]-R`- reverse history search mode, search for commands you've written 
+
+# Vera server
+- `ssh CID@vera1.c3se.chalmers.se`
+- `./jupyter_run.sh` - run the file `jupyter_run.sh`, located in the current directory (check with `ls`)
+- `squeue -u CID` where CID is your CID. If there is only a list of headers, you have no job running
+- `touch X`- "Touch" file X (update time accessed). If it does not exist, create it.
+- `cp X ~/DEST` - copy file X to the directory DEST in your home directory (your area on the server)
+- An error of `client_loop: send disconnect: Broken pipe` probably means that there was an internet error. Check status with `squeue -u CID`, is it still running? Is the web server still running?

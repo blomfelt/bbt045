@@ -63,13 +63,13 @@ Open a new terminal window/tab. The jupyter notebook tab you will NOT touch anym
 Copy the numbers in one the third link, will have the form of vera53-4:2053
 `shh -N -L 2042:veraX-Y:2042 CID@vera1.c3se.chalmers.se`
 
-In my case the second link was *http://vera14-1:2010/lab?token=d54dd74d00a923ffa421a19a890f4b006f9e8eccb2eca1af 
+In my case the second link was *http://vera14-1:2010/lab?token=...*
 
 This means that i run `ssh -N -L 2010:vera14-1:2010 blfelix@vera1.c3se.chalmers.se `
 
 If everything works, nothing will happen after you enter you password and press Enter
 
-Go back to the jupyter tab and press the last URL: 127..0....
+Go back to the jupyter tab and open the last URL (Form: 127..0....) in a browser.
 
 This will open the Jupyter notebook!
 iris.csv and the notebook will be visible on the left.
@@ -79,4 +79,4 @@ Open a third terminal, log in to Vera and go to the Python_Intro directory(`cd` 
 
 It will now be visible in the browser, otherwise click the spinning arrow to refresh.
 
-
+To check how much time you have used so far: `squeue -u CID`where CID is your CID. If there is only a list of headers, you have no job running and the time you specified has run out and you need to run `run_jupyter.sh`again (remember to change the time to the correct amount you need).
