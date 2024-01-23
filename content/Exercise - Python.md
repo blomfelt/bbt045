@@ -67,7 +67,7 @@ Go back to the jupyter tab and open the third URL (Form: 127..0....) in a browse
 This will open the Jupyter notebook!
 iris.csv and the file run_jupyter.sh will be visible on the left.
 
-Open a third terminal, log in to Vera and go to the Python_Intro directory(`cd ~/BBT045/Python_Intro` in my case) and download the notebook:
+Open a third terminal, log in to Vera and go to the Python_Intro directory (`cd ~/BBT045/Python_Intro` in my case) and download the notebook:
 - `wget https://bengtssonpalme.github.io/MPBIO-BBT045-2024/python_for_data_analysis/intro_python_data_analysis.ipynb`
 
 It will now be visible in the browser, otherwise click the spinning arrow to refresh.
