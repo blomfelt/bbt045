@@ -3,7 +3,7 @@ See also [[Lectures]]
 | LV | Date | Details | Week |
 | :----: | :---- | ---- | :----: |
 | 2 | 26/1 Fri | [[Homework 1 - Unix]] | 4 |
-| 3 | 2/2 Fri | Homework 2 - Intro to Python programming for data analysis | 5 |
+| 3 | 2/2 Fri | [[Homework 2 - Intro to Python programming for data analysis]] | 5 |
 | 4 | 9/2 Fri | Homework 3 - Alignment | 6 |
 | 5 | 16/2 Fri | Homework 4 - Hidden Markov Models for Gene Annotation | 7 |
 | 6 | 23/2 Fri | Phylogenomics | 8 |

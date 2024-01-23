@@ -10,6 +10,9 @@ Built using [Quartz](https://quartz.jzhao.xyz).
 - [[How to Connect to Remote Accounts]]  
 - [[Exercise - Basic Unix]]  
 
+## Week 2:
+- [[Exercise - Python]]
+
 ## Common commands
 See also [Linux Cheat Sheet](https://www.stationx.net/unix-commands-cheat-sheet/), [[Git commands]], and [[Linux commands]]
 

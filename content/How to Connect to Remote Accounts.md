@@ -1,6 +1,6 @@
 Open Git Bash
 
-Run: `ssh <username>@<ip-address>
+Run: `ssh username@ip-address`
 
 Your username is studentX (where X = the number assigned to you)
 
