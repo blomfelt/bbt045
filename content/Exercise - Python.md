@@ -9,23 +9,25 @@ All the necessary files can be found here.
 To go back to your home directory just use `cd`.
 
 Create a directory for this course: `mkdir BBT045`
-Also create: `mkdir bin` and `mkdir Python_Intro`
+Also create: `mkdir bin` and `mkdir BBT045/Python_Intro`
 
 move into `cd /cephyr/NOBACKUP/groups/bbt045_2024`
 
-Container and data
-`cd data`
+Container and data are the only ones we will use today. 
+Move into data:
+	`cd data`
 
 You will use the `iris`dataset, copy it into your directory:
-`cp iris.csv ~/BBT045/`
+`cp iris.csv ~/BBT045/Python_Intro/`
 
-Move to container: `cd `
-Copy `run_jupyter.sh`into your `bin`:
+Move to container: `cd ..` then `cd Container`
+Copy `run_jupyter.sh`into your `bin` and your `Python_Intro`:
 `cp run_jupyter.sh ~/bin/`
+`cp run_jupyter.sh ~/BBT045/Python_Intro/`
 
 return home: `cd` (check with `ls` and/or `pwd`)
 
-open run_juyter.sh with nano:
+Move into Python_Intro and open `run_jupyter.sh` with nano:
 	`nano run_jupyter.sh`
 
 You may change the duration to e.g. 1 hour/2 hours. BUT only  use the time you will actually use it. Otherwise you and others may not have resources to use in the end of the project.
@@ -58,9 +60,12 @@ Run it:
 Open the url provided (clicking it should work)
 
 Open a new terminal window/tab. The jupyter notebook tab you will NOT touch anymore.
-Copy the numbers in one the third link, will have the form of vera53-4:
+Copy the numbers in one the third link, will have the form of vera53-4:2053
 `shh -N -L 2042:veraX-Y:2042 CID@vera1.c3se.chalmers.se`
-#todo: what
+
+In my case the second link was *http://vera14-1:2010/lab?token=d54dd74d00a923ffa421a19a890f4b006f9e8eccb2eca1af 
+
+This means that i run `ssh -N -L 2010:vera14-1:2010 blfelix@vera1.c3se.chalmers.se `
 
 If everything works, nothing will happen after you enter you password and press Enter
 
@@ -69,7 +74,9 @@ Go back to the jupyter tab and press the last URL: 127..0....
 This will open the Jupyter notebook!
 iris.csv and the notebook will be visible on the left.
 
-Open a third terminal, go to the Python_Intro (`cd` and so on) and download the notebook:
+Open a third terminal, log in to Vera and go to the Python_Intro directory(`cd` and so on) and download the notebook:
 `wget https://bengtssonpalme.github.io/MPBIO-BBT045-2024/python_for_data_analysis/intro_python_data_analysis.ipynb`
 
-It will now be visible in the browser.
+It will now be visible in the browser, otherwise click the spinning arrow to refresh.
+
+
