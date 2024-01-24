@@ -2,7 +2,26 @@ Source: [Homework 1: Basic Unix operations for bioinformatics | BBT045: Applied 
 
 See also [[Exercise - Basic Unix]]
 
-# Test you results
+## Useful commands
+Everything from [[Exercise - Basic Unix]] but especially:
+- `mv OLD NEW` - rename OLD to NEW
+- `less X` - view content of X
+- `grep "cat" X` - search in X and print all lines which contain "cat", this would also match both "category" and "scatter" but neither "Category" nor "c at"
+	- `grep "^X\t" FILE | grep -c "PATTERN"` - Search for line which begin (^) with an X and then a tab (\\t) in the file FILE, and then count (-c) how many of these contain the REGEX-pattern PATTERN. 
+	- `grep -v "PATTERN" FILE` - Search for lines in FILE which do NOT (-v) contain PATTERN 
+- `tr -d 'A'` - Delete (-d) all "A" from the input (usually piped in: | )
+- `sed 's/[^AB]//g'` - Substitute (s) everything (g) that is neither A nor B with nothing ""
+- `wc -m` - Count the number of characters in the input.
+- `cut -d "_" -f 1` - Cut every line at the "\_"-sign and keep the first column of it (-f 1)
+- `X > file.txt` - write the output from X into the file file.txt
+- `comm -12 A.txt B.txt`- compare the files A.txt and B.txt and print only the third column (-1 and -2, combined into -12) which contain the common lines between them.
+
+
+> [!TIP] Tip
+> Do not complicate your REGEX-patterns too much in the beginning, maybe you are able to accomplish your goal with two or more different searches? Example: first search for lines which begin with A, pipe ( | ) this output into another grep which searches for the word "eggs".
+
+
+# Test your results
 - Log in to the server (`ssh CID@vera1.c3se.chalmers.se`)
 - Move (`cd`) into the directory where you want to create the file with your answers, I put mine in a directory called BBT045.
 - `touch hw1.txt` to create an empty text file (`.txt`) with the name `hw1`.
