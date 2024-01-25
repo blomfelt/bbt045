@@ -27,3 +27,17 @@ See also [Linux Cheat Sheet](https://www.stationx.net/unix-commands-cheat-sheet/
 - `mv SOURCE DESTINATION` - move file  SOURCE to DESTINATION. May also be used to rename SOURCE to DESTINATION if no path is used, i.e. no "/" are used. "*The file is moved to the same place but with a new name*"
 - `touch X`- "Touch" file X (update time accessed). If it does not exist, create it.
 - `chmod u+x X` - edit the permissions of file X so that you (u) may execute (x) it.
+
+
+> [!quote] 
+> Alla maskiner är rökmaskiner om du använder dem tillräckligt dåligt
+
+> [!quote] 
+> Ingen kan säga att du gör fel om ingen vet vad du gör
+
+> [!quote] 
+> Det är aldrig för sent att ge upp
+
+> [!quote] 
+> Det är inte lätt när det är svårt
+ 
