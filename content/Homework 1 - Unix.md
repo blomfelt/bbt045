@@ -14,7 +14,8 @@ Everything from [[Exercise - Basic Unix]] but especially:
 - `wc -m` - Count the number of characters in the input.
 - `cut -d "_" -f 1` - Cut every line at the "\_"-sign and keep the first column of it (-f 1)
 - `X > file.txt` - write the output from X into the file file.txt
-- `comm -12 A.txt B.txt`- compare the files A.txt and B.txt and print only the third column (-1 and -2, combined into -12) which contain the common lines between them.
+- `comm -12 A.txt B.txt`- compare the files A.txt and B.txt and print only the third column (-1 and -2, combined into -12) which contain the common lines between them. NOTE: The lines must be sorted! Use `sort`
+- `sort` - sorts the lines. *Hint: pipe in your unsorted lines and pipe the sorted lines into `comm`*
 
 
 > [!TIP] Tip
