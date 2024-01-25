@@ -9,7 +9,7 @@ All lectures will take place in KS1 in the Chemistry Building
 | 16/1 | Tuesday | 13:15 | 2h | Lecture | Course introduction | JBP |  |
 | 18/1 | Thursday | 13:15 | 4h | Tutorial | [[Exercise - Basic Unix\|Tutorial: Unix]] | SV |  |
 | 19/1 | Friday | 13:15 | 2h | Lecture | Project introduction | JBP |  |
-| 23/1 | Tuesday | 13:15 | 4h | Tutorial | [[Exercise - Python\|Tutorial: Intro to Python]] | SV/VV |  |
+| 23/1 | Tuesday | 13:15 | 4h | Tutorial | [[Tutorial - Python|Tutorial: Intro to Python]] | SV/VV |  |
 | 25/1 | Thursday | 13:15 | 2h | Lecture | HMMs | SV |  |
 | 25/1 | Thursday | 15:15 | 2h | Tutorial | Tutorial: Gene prediction + genome annotation | SV |  |
 | 26/1 | Friday | 13:15 | 2h | Lecture | Bioinformatics workflows and Analysis pipelines | MW |  |

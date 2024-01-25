@@ -1,5 +1,3 @@
-See also [[Git commands]]
-
 # General Commands
 - `ls` - List the names of files and subfolders in the current directory. 
 - `cd Y`- Change directory/location to Y. ( `..` = parent directory, one step up, nothing = $HOME)

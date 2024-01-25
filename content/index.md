@@ -11,10 +11,11 @@ Built using [Quartz](https://quartz.jzhao.xyz).
 - [[Exercise - Basic Unix]]  
 
 ## Week 2:
+- [[Tutorial - Python]]
 - [[Exercise - Python]]
 
 ## Common commands
-See also [Linux Cheat Sheet](https://www.stationx.net/unix-commands-cheat-sheet/), [[Git commands]], and [[Linux commands]]
+See also [Linux Cheat Sheet](https://www.stationx.net/unix-commands-cheat-sheet/) and [[Linux commands]]
 
 - `ls` - List the names of files and subfolders in the current directory. 
 - `cd Y`- Change directory/location to Y. ( `..` = parent directory, one step up, nothing = $HOME)
@@ -26,6 +27,3 @@ See also [Linux Cheat Sheet](https://www.stationx.net/unix-commands-cheat-sheet/
 - `mv SOURCE DESTINATION` - move file  SOURCE to DESTINATION. May also be used to rename SOURCE to DESTINATION if no path is used, i.e. no "/" are used. "*The file is moved to the same place but with a new name*"
 - `touch X`- "Touch" file X (update time accessed). If it does not exist, create it.
 - `chmod u+x X` - edit the permissions of file X so that you (u) may execute (x) it.
-
-# Todo
-- How to test Homework 1?
