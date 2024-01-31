@@ -9,7 +9,7 @@ Built using [Quartz](https://quartz.jzhao.xyz).
 
 
 > [!important] 
-> Use the search function!
+> Use the search function! If you cannot see the file explorer on the left or the table of contents on the right, consider zooming out.
 
 ## Week 1:
 - [[How to Connect to Remote Accounts]]  
