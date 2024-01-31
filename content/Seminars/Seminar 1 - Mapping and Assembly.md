@@ -10,8 +10,8 @@ In this text I would like you to focus on the outcome of the study:
 [[Schbath-2012-Mapping Reads on a Genomic Sequence.pdf]]
 
 Read the overview of the algorithms, particularly focusing on:
-    - 2.1 Hashing
-    - 2.2 Burrows-Wheeler alignments
+-  2.1 Hashing
+- 2.2 Burrows-Wheeler alignments
 
 What can you learn from the tool evaluation in Tables 3, 4, 5, 6, 7 and 8?
 
