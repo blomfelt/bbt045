@@ -32,3 +32,21 @@ Everything from [[Exercise - Basic Unix]] but especially:
 - Run: `/cephyr/NOBACKUP/groups/bbt045_2024/test/test_unix.sh ~/BBT045/hw1.txt` 
 
 The first five lines tell you if you have the right answers or not. I got some errors, but those seem to happen when creating a log for the teachers and not affect us.
+
+
+Hejsan lite meningar
+# Titel
+## Subtitel
+### LIte mindre titel igen
+
+`kod`
+```python
+Lite kod här 
+print(2)
+if X = 3
+	print("hej")
+else
+```
+
+[[index]]
+

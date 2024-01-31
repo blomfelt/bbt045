@@ -6,6 +6,11 @@ Built using [Quartz](https://quartz.jzhao.xyz).
 [Course Homepage](https://bengtssonpalme.github.io/MPBIO-BBT045-2024/)
 
 [[Calendar]] and [[Lectures]]
+
+
+> [!important] 
+> Use the search function!
+
 ## Week 1:
 - [[How to Connect to Remote Accounts]]  
 - [[Exercise - Basic Unix]]  
@@ -13,9 +18,11 @@ Built using [Quartz](https://quartz.jzhao.xyz).
 ## Week 2:
 - [[Tutorial - Python]]
 - [[Exercise - Python]]
+- [[Homework 2 - Intro to Python programming for data analysis]]
+- [[Seminar 1 - Mapping and Assembly]]
 
 ## Common commands
-See also [Linux Cheat Sheet](https://www.stationx.net/unix-commands-cheat-sheet/) and [[Linux commands]]
+See also [Linux Cheat Sheet](https://www.stationx.net/unix-commands-cheat-sheet/),  [[Linux commands]], and [[Python Commands]]
 
 - `ls` - List the names of files and subfolders in the current directory. 
 - `cd Y`- Change directory/location to Y. ( `..` = parent directory, one step up, nothing = $HOME)
