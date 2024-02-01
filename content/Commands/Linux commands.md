@@ -44,3 +44,4 @@
 - `touch X`- "Touch" file X (update time accessed). If it does not exist, create it.
 - `cp X ~/DEST` - copy file X to the directory DEST in your home directory (your area on the server)
 - An error of `client_loop: send disconnect: Broken pipe` probably means that there was an internet error. Check status with `squeue -u CID`, is it still running? Is the web server still running?
+- [[Transfer files from Vera]]

@@ -18,9 +18,12 @@ Built using [Quartz](https://quartz.jzhao.xyz).
 ## Week 2:
 - [[Tutorial - Python]]
 - [[Exercise - Python]]
-- [[Homework 2 - Intro to Python programming for data analysis]]
-- [[Seminar 1 - Mapping and Assembly]]
 
+## Week 3:
+- [[Homework 2 - Intro to Python programming for data analysis]]
+- [[Tutorial - Nextflow]]
+- [[Tutorial - Analysis pipelines]]
+- [[Seminar 1 - Mapping and Assembly]]
 ## Common commands
 See also [Linux Cheat Sheet](https://www.stationx.net/unix-commands-cheat-sheet/),  [[Linux commands]], and [[Python Commands]]
 
