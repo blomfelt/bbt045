@@ -37,5 +37,7 @@ Major drawback of *seed and extend*: to allow more errors the reads need to be s
 
 Most of the time spent by a seed and extend algorithm is spent in the "extend" part. 
 
+
+
 ## Assembly
 [Ben Langmead's video series on mapping algorithms](https://www.langmead-lab.org/teaching.html#computational-genomics), subheading "Assembly"

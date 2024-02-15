@@ -24,6 +24,12 @@ Built using [Quartz](https://quartz.jzhao.xyz).
 - [[Tutorial - Nextflow]]
 - [[Tutorial - Analysis pipelines]]
 - [[Seminar 1 - Mapping and Assembly]]
+
+## Week 5:
+- [[Phylogenomics]]
+- [[Frågor consultation]]
+- [[Funderingar projektet]]
+
 ## Common commands
 See also [Linux Cheat Sheet](https://www.stationx.net/unix-commands-cheat-sheet/),  [[Linux commands]], and [[Python Commands]]
 
@@ -50,4 +56,11 @@ See also [Linux Cheat Sheet](https://www.stationx.net/unix-commands-cheat-sheet/
 
 > [!quote] 
 > Det är inte lätt när det är svårt
- 
+
+# To do
+- [ ] Exercise 3?
+- [ ] Git Lecture
+- [ ] Git Tutorial
+- [ ] Exercise 4
+- [ ] Phylogeny lecture
+- [ ] Phylogeny lecture 2 
