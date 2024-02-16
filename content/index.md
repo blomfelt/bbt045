@@ -29,6 +29,7 @@ Built using [Quartz](https://quartz.jzhao.xyz).
 - [[Phylogenomics]]
 - [[Frågor consultation]]
 - [[Funderingar projektet]]
+- [[Seminar 2 - Algorithm complexity and Applied statistics]]
 
 ## Common commands
 See also [Linux Cheat Sheet](https://www.stationx.net/unix-commands-cheat-sheet/),  [[Linux commands]], and [[Python Commands]]
