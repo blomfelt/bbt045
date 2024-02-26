@@ -26,10 +26,14 @@ Built using [Quartz](https://quartz.jzhao.xyz).
 - [[Seminar 1 - Mapping and Assembly]]
 
 ## Week 5:
-- [[Phylogenomics]]
+- [[Lecture - Phylogenomics]]
 - [[Frågor consultation]]
 - [[Funderingar projektet]]
 - [[Seminar 2 - Algorithm complexity and Applied statistics]]
+
+## Week 6:
+- [[Tutorial - Phylogenomics]]
+- [[Tutorial SLURM]]
 
 ## Common commands
 See also [Linux Cheat Sheet](https://www.stationx.net/unix-commands-cheat-sheet/),  [[Linux commands]], and [[Python Commands]]
